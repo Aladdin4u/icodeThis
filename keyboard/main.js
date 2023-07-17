@@ -37,9 +37,9 @@ upperCase.addEventListener("click", e => {
     
 })
 exit.addEventListener("click", e => {
-    const displayEl = Array.from(display.textContent);
+    const displayEl = Array.from(display.value);
     displayEl.pop()
-    display.textContent = displayEl.join("")
+    display.value = displayEl.join("")
 })
 space.addEventListener("click", e => {
     display.value += " ";
