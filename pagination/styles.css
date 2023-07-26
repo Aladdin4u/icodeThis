@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: orange;
+    height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-area: 10px;
+    gap: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 15px;
+}
+.toggle {
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
